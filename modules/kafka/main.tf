@@ -225,7 +225,7 @@ resource "confluent_kafka_acl" "acl-topics-read" {
 
   for_each = {
     for topic in var.topics: topic.name => topic
-      if topic.exists == true
+      if topic.exists == true && var.create_topics == true
   }
 
   kafka_cluster {
