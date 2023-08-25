@@ -1,7 +1,7 @@
 ## Requirements
 
-![tfenv](https://github.com/tfutils/tfenv/tree/master)
-![terraform-docs](https://github.com/terraform-docs/terraform-docs)
+[tfenv](https://github.com/tfutils/tfenv/tree/master)
+[terraform-docs](https://github.com/terraform-docs/terraform-docs)
 
 ## Providers
 
