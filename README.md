@@ -24,14 +24,12 @@ modules
 templates
 ├── kafka-cluster
 │   ├── README.md
-│   ├── credentials.tfvars
 │   ├── main.tf
 │   ├── outputs.tf
 │   ├── terraform.tfvars
 │   └── variables.tf
 └── kafka-topics
     ├── README.md
-    ├── credentials.tfvars
     ├── main.tf
     ├── outputs.tf
     ├── terraform.tfvars
